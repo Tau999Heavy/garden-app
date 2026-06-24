@@ -18,9 +18,8 @@ def get_plant_advice(plant_type):
         return "No advice for this type of plant."
 
 
-# Hardcoded values for the season and plant type
-season = "summer"  # TODO: Replace with input() to allow user interaction.
-plant_type = "flower"  # TODO: Replace with input() to allow user interaction.
+season = input("Enter the season: ").lower()
+plant_type = input("Enter the plant type: ").lower()
 
 # Variable to hold gardening advice
 advice = ""
